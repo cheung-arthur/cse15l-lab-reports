@@ -1,9 +1,1 @@
-wepofkw
-
-fwe[fp
-efpekfpoe
-
-eekkekeke
-ekeeokdwepo
-
-this is a line
+## [Lab 1](https://xarthurcheungx.github.io/cse15l-lab-reports/lab1)
