@@ -19,7 +19,7 @@ Note: I have adapted this tutorial to Mac users only as I only have access to a 
 * If the terminal asks the following question: "Are you sure you want to continue connecting (yes/no/[fingerprint])?", simply type yes and press enter.
 * The terminal should then prompt a password like this: ![Image](PasswordPromptSS.png)
 * Type the password you just recently set, and press enter. If you entered your password correctly you should then see this in the terminal: ![Image](SuccessfulLoginSS.png)
-* Congratulations! You are now connected to the UCSD CSE15l remote server. This is where the fun begins!
+* Congratulations! You are now connected to the UCSD CSE15L remote server. This is where the fun begins!
 ## Third step: Traversing a Filesystem using commands
 * 
 
