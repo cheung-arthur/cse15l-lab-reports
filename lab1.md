@@ -21,6 +21,13 @@ Note: I have adapted this tutorial to Mac users only as I only have access to a 
 * Type the password you just recently set, and press enter. If you entered your password correctly you should then see this in the terminal: ![Image](SuccessfulLoginSS.png)
 * Congratulations! You are now connected to the UCSD CSE15L remote server. This is where the fun begins!
 ## Third step: Traversing a Filesystem using commands
-* 
+* Now, we can try running commands on the terminal to traverse our filesystem in the remote server. 
+* For example, enter ls in the terminal to see the children directories of the working directory (imagine them as folders inside a folder of a filesystem), or enter "pwd" to print what your current working directory is. 
+* This is an example of what happens when I enter ls and pwd: ![Image](ls&&pwdExampleSS.png)
+* Using the information given to us by the "ls" command, we can use the "cd" command to change our directory to the ones underneath (ie "bruh") like this: ![Image](cdExampleSS.png)
+* Now, we can see that we are in the "bruh" directory using the pwd command: [Image](cdResultSS.png)
+* We can also use the "mkdir" command to make a new directory in the working directory like so: [Image](mkdirExampleSS.png)
+* You can also use the "cd ~" command to go back to the root directory (ie the first level of directory in the filesystem). [Image](rootExampleSS.png)
+* These are just some of the commands I found most interesting, but I would recommend visiting the [main CSE15L week 1 website](https://ucsd-cse15l-s23.github.io/week/week1/) to see other commands you can explore, and testing them out to see what they do if you are interested. That's it for week 1!
 
 
