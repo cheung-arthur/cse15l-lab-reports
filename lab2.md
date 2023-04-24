@@ -4,10 +4,10 @@ Note: I have adapted this tutorial to Mac users only as I only have access to a 
 * Below is the code for the StringServer.java file that I used to create the StringServer web server:
 
 
-`import java.io.IOException;
-import java.net.URI;
+`import java.io.IOException;`
+`import java.net.URI;`
 
-class Handler implements URLHandler {
+`class Handler implements URLHandler {
 
     String toShow = "";
 
