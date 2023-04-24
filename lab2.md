@@ -1,5 +1,5 @@
 # Lab Report 2
-## StringServer
+## Part 1: StringServer
 * Below is the code for the StringServer.java file that I used to create the StringServer web server:
 ![Image](THECODE.png)
 * Now, here are two screenshots of using `/add-message` followed by a query:
