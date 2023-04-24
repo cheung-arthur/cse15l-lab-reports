@@ -2,7 +2,8 @@
 Note: I have adapted this tutorial to Mac users only as I only have access to a Macbook.
 ## Writing StringServer
 * Below is the code for the StringServer.java file that I used to create the StringServer web server:
-![Image](CodeForStringServer.png)
+![Image](CodeStringServer.png)
+* 
 
 
 
