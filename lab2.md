@@ -73,5 +73,7 @@ After:
 ```
 Explanation: Because this program did not account for the fact that there could be multiple instances of a lowest number, it calculated the average simply by taking the count of numbers as one less than the length of the array (thinking it would be the one lowest number. )To work "properly", we need to count for the instances of the lowest numbers and take that into consideration when calculating the average.
 
+## Part 3: What I learned
+During weeks 2 and 3, I learned the importance of the definition of a "failure-inducing input". We cannot equate failure-inducing inputs to simply the inputs that cause errors in our program, because this is entirely up to the intention of the program. In fact, there may be some inputs that we *want to cause an error* depending on the design/purpose of our program. Instead, a failure-inducing input is any input that causes an unwanted or unexpected symptom/behaviour in the output of our program.
 
 
