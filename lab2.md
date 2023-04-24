@@ -18,8 +18,8 @@
 * Below is a failure inducing input for the for the `averagewithoutLowest` method. The input is formatted as a JUnit test method:
 
 `@Test
-  public void testAverageWithoutLowest(){
+public void testAverageWithoutLowest(){
     double[] input = {1,1,1,3,4,5};
     assertEquals(12,ArrayExamples.averageWithoutLowest(input),0.00001);
-  }`
+}`
 
