@@ -15,7 +15,7 @@ Note: I have adapted this tutorial to Mac users only as I only have access to a 
 * Click the "UC San Diego Active Directory (AD) Password Change Tool" link on the website, and change your password to anything of your liking (though it is best to be secure).
 * Now, we can go back to VS code and open a new terminal using the menu bar at the top (Terminal -> New Terminal). 
 * You should now see something like this: ![Image](VSCodeTerminalSS.png)
-* Click anywhere in the terminal, and type the following command: ssh cs15lsp23zz@ieng6.ucsd.edu. Replace the "zz" in this line with your own account name you noted down from before, and press enter.
+* Click anywhere in the terminal, and type the following command: `ssh cs15lsp23zz@ieng6.ucsd.edu.` Replace the "zz" in this line with your own account name you noted down from before, and press enter.
 * If the terminal asks the following question: "Are you sure you want to continue connecting (yes/no/[fingerprint])?", simply type yes and press enter.
 * The terminal should then prompt a password like this: ![Image](PasswordPromptSS.png)
 * Type the password you just recently set, and press enter. If you entered your password correctly you should then see this in the terminal: ![Image](SuccessfulLoginSS.png)
