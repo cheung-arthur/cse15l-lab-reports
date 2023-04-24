@@ -19,7 +19,21 @@
 ```@Test
   public void testAverageWithoutLowest(){
     double[] input = {1,1,1,3,4,5};
-    assertEquals(12,ArrayExamples.averageWithoutLowest(input),0.00001);
+    assertEquals(4,ArrayExamples.averageWithoutLowest(input),0.00001);
   }
 ```
+* This is a an input that does not induce failure for the `averagewithoutLowest` method. The input is formatted as a JUnit test method:
+```
+@Test
+  public void testAverageWithoutLowest(){
+    double[] input = {1,3,4,5};
+    assertEquals(4,ArrayExamples.averageWithoutLowest(input),0.00001);
+  }
+```
+
+* This is the symptom of the bug in the program, as a screenshot for the ouput when we run the failure-inducing input as a JUnit test:
+![Image](BuggedInput.png)
+* This is a screenshot for the ouput when we run the successful input as a JUnit test:
+![Image](GoodInput.png)
+
 
