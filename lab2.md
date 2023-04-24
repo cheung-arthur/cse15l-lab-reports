@@ -2,7 +2,7 @@
 ## StringServer
 * Below is the code for the StringServer.java file that I used to create the StringServer web server:
 ![Image](THECODE.png)
-* Now, here are screenshots of using `/add-message` followed by a query.
+* Now, here are two screenshots of using `/add-message` followed by a query:
 ![Image](SCServer1.png)
 * Before this, the main method was called to start the server. This main method was called during the terminal, with an array of String `args` as an argument. The `port` field is specified to be the first element in `args` (ie the first argument when running StringServer).  In this main method, we call the `Server.start` method, where a new Handler object is created and passed as an argument alongside the `port` field. 
 * Secondly, using the new Handler object that was created, this screenshot shows the `handleRequest` method of my code being called. 
