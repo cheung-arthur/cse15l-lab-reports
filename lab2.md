@@ -14,4 +14,11 @@
 ![Image](SCServer2.png)
 * The main method here is not called at it has already been called. Calling the main method again would restart the server and make a new Handler object, erasing memory of the toShow field by setting it back to an emtpy String.
 * However, here, the `handleRequest` method here is indeed called once again because a new URL has been entered - this time with a different value specified by `/add-message`. Now, the `url` argument that is passed into the `handleRequest` method has changed, and so the value of the `queryParam` field changes accordingly as well. Thus, due to all of this, the `toShow` field retains its value from the last screenshot but now also adds onto the previous String value with the new query parameter that was specified.
+## Part 2: Assessing bugs using JUnit
+* Below is a failure inducing input for the for the `averagewithoutLowest` method. The input is formatted as a JUnit test method:
+`@Test
+  public void testAverageWithoutLowest(){
+    double[] input = {1,1,1,3,4,5};
+    assertEquals(12,ArrayExamples.averageWithoutLowest(input),0.00001);
+  }`
 
