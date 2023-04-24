@@ -3,12 +3,12 @@ Note: I have adapted this tutorial to Mac users only as I only have access to a 
 ## Writing StringServer
 * Below is the code for the StringServer.java file that I used to create the StringServer web server:
 
+`import java.io.IOException;
+import java.net.URI;
 
-`import java.io.IOException;`
-`import java.net.URI;`
-
-`class Handler implements URLHandler {
-
+class Handler implements URLHandler {
+    // The one bit of state on the server: a number that will be manipulated by
+    // various requests.
     String toShow = "";
 
     public String handleRequest(URI url) {
@@ -40,7 +40,8 @@ class StringServer {
         Server.start(port, new Handler());
     }
 }
-`
+}
+
 
 * After downloading, run the installer. 
 * Once it has been installed, run the program and it should open up a window that looks like this (Ignore the files on the side; if it is newly installed, there should be no files on the side) : ![Image](VSCodeSS.png)
