@@ -36,4 +36,42 @@
 * This is a screenshot for the ouput when we run the successful input as a JUnit test:
 ![Image](GoodInput.png)
 
+* This is the bug as the before-and-after code fix:
+Before:
+```
+static double averageWithoutLowest(double[] arr) {
+    if(arr.length < 2) { return 0.0; }
+    double lowest = arr[0];
+    for(double num: arr) {
+      if(num < lowest) { lowest = num; }
+    }
+    double sum = 0;
+    for(double num: arr) {
+      if(num != lowest) { sum += num; }
+    }
+    return sum / (arr.length - 1);
+  }
+
+```
+
+After:
+```
+  static double averageWithoutLowest(double[] arr) {
+    int lowestCounter=0;
+    if(arr.length < 2) { return 0.0; }
+    double lowest = arr[0];
+    for(double num: arr) {
+      if(num < lowest) { lowest = num; }
+      if (num==lowest){lowestCounter+=1;}
+    }
+    double sum = 0;
+    for(double num: arr) {
+      if(num != lowest) { sum += num; }
+    }
+    return sum / (arr.length - lowestCounter);
+  }
+```
+Explanation: Because this program did not account for the fact that there could be multiple instances of a lowest number, it calculated the average simply by taking the count of numbers as one less than the length of the array (thinking it would be the one lowest number. )To work "properly", we need to count for the instances of the lowest numbers and take that into consideration when calculating the average.
+
+
 
