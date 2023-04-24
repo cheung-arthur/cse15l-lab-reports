@@ -2,12 +2,13 @@
 Note: I have adapted this tutorial to Mac users only as I only have access to a Macbook.
 ## Writing StringServer
 * Below is the code for the StringServer.java file that I used to create the StringServer web server:
+
+
 `import java.io.IOException;
 import java.net.URI;
 
 class Handler implements URLHandler {
-    // The one bit of state on the server: a number that will be manipulated by
-    // various requests.
+
     String toShow = "";
 
     public String handleRequest(URI url) {
