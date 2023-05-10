@@ -242,9 +242,54 @@ Output:
 ```
 
 ### Example 6:
-Input command: `` 
+Input command: `grep -w in plos/journal.pbio.0020064.txt` 
 
-Output: ``
+Output: `poison could result in near-instant expiration. And now, as researchers begin to understand
+        on the tongue and elsewhere in the mouth (Figure 1). Up to 100 taste receptor
+        cells—epithelial cells with some neuronal properties—are arranged in each taste bud. In the
+        Taste is the sense by which the chemical qualities of food in the mouth are
+        ‘basic taste’, explains Bernd Lindemann, now retired but an active taste researcher in
+        explains Lindemann: ‘Food is already in the mouth. We just have to decide whether to
+        sense system. Then, in 1991, the first olfactory receptors were described. These proteins,
+        which are exposed on the surface of cells in the nose, bind to volatile chemicals and allow
+        us to detect smells. This landmark discovery, in part, encouraged many established taste
+        explains Zuker, who previously worked on other sensory systems in flies, ‘there was a
+        disconnect between our understanding of sensations in the case of photoreception,
+        involved in sweet and bitter taste, ‘but the receptors weren't known, so we started to look
+        variation might be due to alterations in the coding sequence for a bitter receptor, the
+        All these receptors, says Zuker, are coexpressed in bitter taste receptor cells, a
+        receptors would be expressed in each bitter taste cell. We just need to know if something
+        The sweet receptor story started in 1999 with the identification of two putative
+        researchers at the University of Miami (Florida, United States) School of Medicine in 2000.
+        T1R3. In October 2003, Zuker and his coworkers reported that mice in which either T1R1 or
+        tastant. However, other researchers reported in August 2003 that T1R3 knockouts retain some
+        not alone, however, in thinking there may be more than one umami receptor (and additional
+        The salty and sour receptors may be very different from the GPCRs involved in bitter,
+        channel through which specific inorganic ions can diffuse. Changes in cellular ion
+        States) says there are at least two ion channel receptors for salt in rodent taste receptor
+        channel only responds to sodium chloride—and may be the more important receptor in
+        Sour tastants are acids, often found in spoiled or unripe food. DeSimone's current idea
+        identified the proton channel involved in sour taste as well as an ion channel that could
+        channels are essential elsewhere in the body, as DeSimone suspects, to avoid lethality he
+        will need to construct conditional knockouts in which the channel is lost only in the taste
+        sour perception are correct. And, he says, GPCRs could also be involved in these
+        question in taste perception: how is taste coded? When we eat, our tongue is bombarded with
+        umami fits the labelled-line model in the periphery of the taste system. Their expression
+        data show that receptors for these qualities are expressed in distinct populations of taste
+        cells. In addition, in early 2003, they reported that, as in other sensory systems, a
+        sweet, or umami, and engineered them so that PLCβ2 was only expressed in bitter
+        colleagues described mice in which a non-taste receptor—a modified κ-opioid receptor that
+        can only be activated by a synthetic ligand—was expressed only in cells expressing T1R2,
+        example, believe that there is at least some involvement of cross-fibre patterning even in
+        labelled line for bitter, sweet, and umami’. Bartoshuk also says the debate is decided in
+        favour of the labelled-line model in the periphery. The crossfibre model is an interesting
+        seen. However, it seems certain that, as in the past five years, the next five years will
+        see large advances in our knowledge of many aspects of taste, a fascinating and important
+        relatively little is known about the transduction pathways in taste, how taste cells talk
+        to the nervous system, or about events further downstream in the brain. How are signals
+        tell us not only about taste but about how the nervous system in general is put together,
+        blood pressure. Lindemann also sees a great future in artificial ligands for taste
+        receptors. The sense of taste is partly lost in elderly people, he says, so better`
 
 In these examples,
 
