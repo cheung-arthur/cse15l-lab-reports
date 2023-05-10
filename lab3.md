@@ -244,7 +244,8 @@ Output:
 ### Example 6:
 Input command: `grep -w in plos/journal.pbio.0020064.txt` 
 
-Output: `poison could result in near-instant expiration. And now, as researchers begin to understand
+Output: `
+        poison could result in near-instant expiration. And now, as researchers begin to understand
         on the tongue and elsewhere in the mouth (Figure 1). Up to 100 taste receptor
         cells—epithelial cells with some neuronal properties—are arranged in each taste bud. In the
         Taste is the sense by which the chemical qualities of food in the mouth are
@@ -289,15 +290,16 @@ Output: `poison could result in near-instant expiration. And now, as researchers
         to the nervous system, or about events further downstream in the brain. How are signals
         tell us not only about taste but about how the nervous system in general is put together,
         blood pressure. Lindemann also sees a great future in artificial ligands for taste
-        receptors. The sense of taste is partly lost in elderly people, he says, so better`
+        receptors. The sense of taste is partly lost in elderly people, he says, so better
+`
 
-In these examples,
+In examples 5 and 6, we see that this command outputs all lines in the text file that *only* contain the entire word that was specified as an argument. This command can be useful in situations where you want to look for occurences of a word by its *meaning* rather than its face-value string value. Let's say you wanted to search for lines with the word "ore". There could be other words which contain the string "ore" inside, but that is not at all related to what we wanted. With `-w`, we can filter out unwanted partial matches.
 
 ### Source:
 [grep Command in Linux with Examples (Search for a pattern in a file) - Reddit(r/commandline)](https://www.reddit.com/r/commandline/comments/m14s0y/grep_command_in_linux_with_examples_search_for_a/)
 
 ## Command Line Option 4: Ignore Cases
-The `$ grep -v [pattern] [file]` command 
+The `$ grep -i [pattern] [file]` command 
 ### Example 7:
 Input command: ``
 
@@ -310,7 +312,7 @@ Output: ``
 In these examples,
 
 ### Source:
-[grep Command in Linux with Examples (Search for a pattern in a file) - Reddit(r/commandline)](https://www.reddit.com/r/commandline/comments/m14s0y/grep_command_in_linux_with_examples_search_for_a/)
+[16 grep Command Examples to Help You in Real-World - geekflare.com](https://geekflare.com/grep-command-examples/)
 
 
 
