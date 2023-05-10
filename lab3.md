@@ -21,11 +21,118 @@ Similar to the `wc` command we learned in class, this option for `grep` can save
 [16 grep Command Examples to Help You in Real-World - geekflare.com](https://geekflare.com/grep-command-examples/)
 
 ## Command Line Option 2: Inverse Search
-The `$ grep -v [pattern] [file]` command 
+The `$ grep -v [pattern] [file]` command finds and outputs all lines in the given text file that *don't* match the given pattern, where `pattern` can be substituted for any string you want to exclude in your search, and `file` being the path for any text file.
 ### Example 3:
-Input command: ``
+Input command: `grep -v a 911report/chapter-2.txt`
 
-Output: ``
+Output: `
+    
+        
+            THE FOUNDATION OF THE NEW TERRORISM
+            A DECLARATION OF WAR
+            
+                these themes.
+            
+            
+            
+            BIN LADIN'S APPEAL IN THE ISLAMIC WORLD 
+            
+            
+            
+            
+            
+                nonbeliever worthy of destruction.
+            
+                support for their countries' repressive rulers.
+                desire life."
+            
+            
+            
+            THE RISE OF BIN LADIN AND AL QAEDA (1988-1992)
+            
+            
+            
+            
+            
+            
+                    circle.
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                    well.
+            
+            
+            
+            
+            
+            BUILDING AN ORGANIZATION, DECLARING WAR ON THE UNITED STATES
+                (1992-1996)
+            
+            
+            
+            
+            
+            
+                    unknown.
+            
+                the cylinder, then discovered it to be bogus.
+            
+            
+            
+            
+            
+            
+                    request.
+            
+                connections.
+            
+            
+            
+            
+                    section.
+            
+            
+            AL QAEDA'S RENEWAL IN AFGHANISTAN (1996-1998)
+            
+            
+            
+            
+            
+            
+            
+            
+                    entirely.
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        `
 ### Example 4:
 Input command: `` 
 
