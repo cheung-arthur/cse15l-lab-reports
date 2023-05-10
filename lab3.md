@@ -244,7 +244,8 @@ Output:
 ### Example 6:
 Input command: `grep -w in plos/journal.pbio.0020064.txt` 
 
-Output: ```
+Output: 
+```
         poison could result in near-instant expiration. And now, as researchers begin to understand
         on the tongue and elsewhere in the mouth (Figure 1). Up to 100 taste receptor
         cells—epithelial cells with some neuronal properties—are arranged in each taste bud. In the
