@@ -25,8 +25,8 @@ The `$ grep -v [pattern] [file]` command finds and outputs all lines in the give
 ### Example 3:
 Input command: `grep -v a 911report/chapter-2.txt`
 
-Output: `
-    
+Output: 
+`    
         
             THE FOUNDATION OF THE NEW TERRORISM
             A DECLARATION OF WAR
