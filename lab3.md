@@ -244,7 +244,7 @@ Output:
 ### Example 6:
 Input command: `grep -w in plos/journal.pbio.0020064.txt` 
 
-Output: `
+Output: ```
         poison could result in near-instant expiration. And now, as researchers begin to understand
         on the tongue and elsewhere in the mouth (Figure 1). Up to 100 taste receptor
         cells—epithelial cells with some neuronal properties—are arranged in each taste bud. In the
@@ -291,7 +291,7 @@ Output: `
         tell us not only about taste but about how the nervous system in general is put together,
         blood pressure. Lindemann also sees a great future in artificial ligands for taste
         receptors. The sense of taste is partly lost in elderly people, he says, so better
-`
+```
 
 In examples 5 and 6, we see that this command outputs all lines in the text file that *only* contain the entire word that was specified as an argument. This command can be useful in situations where you want to look for occurences of a word by its *meaning* rather than its face-value string value. Let's say you wanted to search for lines with the word "ore". There could be other words which contain the string "ore" inside, but that is not at all related to what we wanted. With `-w`, we can filter out unwanted partial matches.
 
