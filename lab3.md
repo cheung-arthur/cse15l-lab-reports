@@ -226,7 +226,8 @@ The `$grep -w [pattern] [file]` file command finds and outputs lines only where 
 ### Example 5:
 Input command: `grep -w a 911report/preface.txt`
 
-Output: `
+Output: 
+```
                 Democrats chosen by elected leaders from our nation's capital at a time of great
             We have come together with a unity of purpose because our nation demands it.
                 September 11, 2001, was a day of unprecedented shock and suffering in the history of
@@ -240,8 +241,7 @@ Output: `
                 understanding of a landmark in the history of our nation.
             We also approach the task of recommendations with humility. We have made a limited
 
-`
-
+```
 
 ### Example 6:
 Input command: `` 
