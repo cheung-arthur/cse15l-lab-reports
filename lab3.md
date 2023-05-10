@@ -296,24 +296,148 @@ Output:
 
 In examples 5 and 6, we see that this command outputs all lines in the text file that *only* contain the entire word that was specified as an argument. This command can be useful in situations where you want to look for occurences of a word by its *meaning* rather than its face-value string value. Let's say you wanted to search for lines with the word "ore". There could be other words which contain the string "ore" inside, but that is not at all related to what we wanted. With `-w`, we can filter out unwanted partial matches.
 
-### Source:
+### Sources:
 [grep Command in Linux with Examples (Search for a pattern in a file) - Reddit(r/commandline)](https://www.reddit.com/r/commandline/comments/m14s0y/grep_command_in_linux_with_examples_search_for_a/)
 
-## Command Line Option 4: Ignore Cases
-The `$ grep -i [pattern] [file]` command 
-### Example 7:
-Input command: ``
-
-Output: ``
-### Example 8:
-Input command: `` 
-
-Output: ``
-
-In these examples,
-
-### Source:
 [16 grep Command Examples to Help You in Real-World - geekflare.com](https://geekflare.com/grep-command-examples/)
 
+## Command Line Option 4: Ignore case distinctions
+The `$ grep -i [pattern] [file]` command finds and outputs all the lines that contain the string specified by `[pattern]`, except it ignores all upper and lower cases. Any line with the instance of that string in any combination of upper and/or lower cases will be outputed.
+### Example 7:
+Input command: `grep -i we 911report/preface.txt`
+
+Output: 
+```
+            We present the narrative of this report and the recommendations that flow from it to
+            We have come together with a unity of purpose because our nation demands it.
+                the United States. The nation was unprepared. How did this happen, and how can we
+            To answer these questions, the Congress and the President created the National
+            Our mandate was sweeping. The law directed us to investigate "facts and circumstances
+                areas determined relevant by the Commission. In pursuing our mandate, we have
+                reviewed more than 2.5 million pages of documents and interviewed more than 1,200
+                our mandate. We have sought to be independent, impartial, thorough, and nonpartisan.
+                From the outset, we have been committed to share as much of our investigation as we
+                can with the American people. To that end, we held 19 days of hearings and took
+            We learned about an enemy who is sophisticated, patient, disciplined, and lethal. The
+                and equal rights for women. It makes no distinction between military and civilian
+            We learned that the institutions charged with protecting our borders, civil aviation,
+                adjust their policies, plans, and practices to deter or defeat it. We learned of
+                fault lines within our government-between foreign and domestic intelligence, and
+                between and within agencies. We learned of the pervasive problems of managing and
+            At the outset of our work, we said we were looking backward in order to look forward.
+                We hope that the terrible losses chronicled in this report can create something
+                positive-an America that is safer, stronger, and wiser. That September day, we came
+                meet the challenges now confronting us. We need to design a balanced strategy for
+                the long haul, to attack terrorists and prevent their ranks from swelling while at
+                the same time protecting our country against future attacks. We have been forced to
+                agencies that prevailed in the great struggles of the twentieth century must work
+                together in new ways, so that all the instruments of national power can be combined.
+                Congress needs dramatic change as well to strengthen oversight and focus
+            As we complete our final report, we want to begin by thanking our fellow
+                Commissioners, whose dedication to this task has been profound. We have reasoned
+                dialogue. We want to express our considerable respect for the intellect and judgment
+                of our colleagues, as well as our great affection for them.
+            We want to thank the Commission staff. The dedicated professional staff, headed by
+                have been superb. We thank the Congress and the President. Executive branch agencies
+                have searched records and produced a multitude of documents for us. We thank
+                officials, past and present, who were generous with their time and provided us with
+                assistance. We owe a huge debt to their investigative labors, painstaking attention
+                to detail, and readiness to share what they have learned. We have built on the work
+                of several previous Commissions, and we thank the Congressional Joint Inquiry, whose
+                fine work helped us get started. We thank the City of New York for assistance with
+            We conclude this list of thanks by coming full circle: We thank the families of 9/11,
+                the importance of the work we have undertaken.
+            We want to note what we have done, and not done. We have endeavored to provide the
+                most complete account we can of the events of September 11, what happened and why.
+                This final report is only a summary of what we have done, citing only a fraction of
+                the sources we have consulted. But in an event of this scale, touching so many
+                issues and organizations, we are conscious of our limits. We have not interviewed
+                inevitably will come to light. We present this report as a foundation for a better
+            We have listened to scores of overwhelming personal tragedies and astounding acts of
+                heroism and bravery. We have examined the staggering impact of the events of 9/11 on
+                the American people and their amazing resilience and courage as they fought back. We
+                preparing to respond if it becomes necessary. We emerge from this investigation with
+                for the American people. We recognize the formidable challenges that lie ahead.
+            We also approach the task of recommendations with humility. We have made a limited
+                number of them. We decided consciously to focus on recommendations we believe to be
+                most important, whose implementation can make the greatest difference. We came into
+                pause, reflect, and sometimes change our minds as we studied these problems and
+                considered the views of others. We hope our report will encourage our fellow
+```
+### Example 8:
+From the reddit link attatched below in the sources section, I found that I could combine this `-i` command with one we previously learned (`-w`) to find all lines with a specific *whole word, ignoring cases.* We can do this with the `-wi` command.
+
+Input command: `grep -wi as 911report/chapter-11.txt` 
+
+Output: 
+```
+            As time passes, more documents become available, and the bare facts of what happened
+                reimagine, as that past world, with its preoccupations and uncertainty, recedes and
+                in Korea another. But these were attacks by major powers. While by no means as
+                threatening as Japan's act of war, the 9/11 attack was in some ways more
+                satisfaction. The people of the United States hoped to enjoy a peace dividend, as
+            The United States emerged into the post-Cold War world as the globe's preeminent
+                Kosovo. America stood out as an object for admiration, envy, and blame. This created
+                Kansi, who in 1993 killed two CIA employees as they waited to go to work in Langley,
+            As best we can determine, neither in 2000 nor in the first eight months of 2001 did
+                as Serbian ethnic cleansing, biological attacks, Iraqi weapons of mass destruction,
+                increase over the next several years. It specified as particular points of
+                vulnerability the White House, the Capitol, symbols of capitalism such as Wall
+                Street, critical infrastructure such as power grids, areas where people congregate
+                such as sports arenas, and civil aviation generally. It warned that the 1993 World
+            This 1995 estimate described the greatest danger as "transient groupings of
+                sentence:"Iran and its surrogates, as well as terrorist financier Usama Bin Ladin
+                the highest officials in the government with titles such as "Bin Ladin Threatening
+                about ten analysts to this effort was seen as a major bureaucratic victory, but the
+                discounted the alarms about a catastrophic threat as relating only to the danger of
+                months before 9/11:"It would be a mistake to redefine counterterrorism as a task of
+            Therefore, those government experts who saw Bin Ladin as an unprecedented new danger
+                Intelligence Estimate is noticed in the Congress, for example. But, as we have said,
+            By 2001 the government still needed a decision at the highest level as to whether al
+                al Qaeda as the "point of the spear of radical Islam." But no one forced the
+                the threat. The issue was never joined as a collective debate by the U.S.
+            Institutionalizing Imagination: The Case of Aircraft as Weapons
+                to Japanese examination of Hawaii as a possible target. But, another historian
+                imagine that aircraft could be used as weapons. Indeed, since al Qaeda and other
+                other vehicles such as boats (the Cole attack) or planes is not far-fetched. Yet
+                experts. In 1996, as a result of the TWA Flight 800 crash, President Clinton created
+                hijackings or the use of aircraft as weapons. It focused mainly on the danger of
+                such as the "Blind Sheikh," Omar Abdel Rahman. Had the contents of this PDB been
+            The North American Aerospace Defense Command imagined the possible use of aircraft as
+                put aside in the early planning of the exercise as too much of a distraction from
+                the main focus (war in Korea), and as too unrealistic. As we pointed out in chapter
+                used as a weapon. It did not perform this kind of analysis from the enemy's
+                warning system was not looking for information such as the July 2001 FBI report of
+                enemy that, as the twentieth century closed, was most likely to launch a surprise
+                with the threat was to end al Qaeda's ability to use Afghanistan as a sanctuary for
+                proxies to try to capture or kill Bin Ladin and his lieutenants. As early as
+                of Afghanistan as practically inconceivable before 9/11. It was never the subject of
+                repeatedly did not make it more effective. As evidence of al Qaeda's responsibility
+                region, prepared to fire cruise missiles. General Hugh Shelton developed as many as
+            As for the Department of Defense, some officers in the Joint Staff were keen to help.
+                2000, as part of a millennium after-action review. President Clinton and his
+                accepting what are viewed as givens, including that efforts to identify and fix
+                medications. What is missing is the attending physician who makes sure they work as
+                NSA did not think its job was to research these identities. It saw itself as an
+                agency to support intelligence consumers, such as CIA. The NSA tried to respond
+                almost the same day as the one given to Khalid al Mihdhar.
+                identify one of the travelers as Khalid al Mihdhar. After the flight left, they
+            The information arrived at Bangkok too late to track these travelers as they came in.
+                Had the authorities there already been keeping an eye out for Khalid al Mihdhar as
+                challenge of managing a transnational case, one that hopped from place to place as
+                organizations as disparate as the CIA, the FBI, the State Department, the military,
+                strategy for a war on terrorism. It was to rebuild the CIA. They said the CIA as a
+            As some officials pointed out to us, there is a tradeoff in this management approach.
+                security community. As a consequence, one of the critical working relationships in
+                period in which the government as a whole seemed to be acting in concert to deal
+```
+
+In example 7, we see all lines in the `911report/preface.txt` file that had contained the `"we"` string in any combination of lower and upper cases. In example 8, we see all lines in the `911report/chapter-11.txt`` file that had contained the `"as"` *word* in any combination of lower and upper cases.
+
+### Sources:
+[grep Command in Linux with Examples (Search for a pattern in a file) - Reddit(r/commandline)]
+(https://www.reddit.com/r/commandline/comments/m14s0y/grep_command_in_linux_with_examples_search_for_a/)
+
+[16 grep Command Examples to Help You in Real-World - geekflare.com](https://geekflare.com/grep-command-examples/)
 
 
