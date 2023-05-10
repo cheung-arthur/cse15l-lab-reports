@@ -221,11 +221,23 @@ In examples 3 and 4, we see all the lines in the respective text files wherein t
 [16 grep Command Examples to Help You in Real-World - geekflare.com](https://geekflare.com/grep-command-examples/)
 
 ## Command Line Option 3: Match only Whole Words
-The `$ grep -v [pattern] [file]` command 
-### Example 5:
-Input command: ``
+The `$grep -w [pattern] [file]` file command finds and outputs lines only where the `[pattern]` occurs as a whole word, rather than including being a part of a larger word. For example, using the `-w` option with `"a"` would find all line occurences of `"a"`as the word itself, excluding words that simply have "a" inside them.
 
-Output: ``
+### Example 5:
+Input command: `grep -w a 911report/preface.txt `
+
+Output: ```Democrats chosen by elected leaders from our nation's capital at a time of great
+            We have come together with a unity of purpose because our nation demands it.
+                September 11, 2001, was a day of unprecedented shock and suffering in the history of
+                sharing information across a large and unwieldy government that had been built in a
+                together as a nation. The test before us is to sustain that unity of purpose and
+                meet the challenges now confronting us. We need to design a balanced strategy for
+                have searched records and produced a multitude of documents for us. We thank
+                assistance. We owe a huge debt to their investigative labors, painstaking attention
+                This final report is only a summary of what we have done, citing only a fraction of
+                inevitably will come to light. We present this report as a foundation for a better
+                understanding of a landmark in the history of our nation.
+            We also approach the task of recommendations with humility. We have made a limited```
 ### Example 6:
 Input command: `` 
 
@@ -249,6 +261,7 @@ Output: ``
 
 In these examples,
 
+### Source:
 [grep Command in Linux with Examples (Search for a pattern in a file) - Reddit(r/commandline)](https://www.reddit.com/r/commandline/comments/m14s0y/grep_command_in_linux_with_examples_search_for_a/)
 
 
