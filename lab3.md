@@ -215,7 +215,7 @@ Output:
         
 ```
 
-In these examples,
+In examples 3 and 4, we see all the lines in the respective text files wherein the strings(given as arguments in the input command) did *not* appear. This command can be especially useful in filtering out unwanted or irrelevant lines from a text files and logs, perhaps making it easier to read and quicker to find desired information. In fact, a further application of this would be to store the outputs of this command into a new file each time and repeatedly filter out lines containing certain phrases until we find information pertaining to what we want.
 
 ### Source:
 [16 grep Command Examples to Help You in Real-World - geekflare.com](https://geekflare.com/grep-command-examples/)
