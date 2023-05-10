@@ -136,7 +136,8 @@ Output:
 ### Example 4:
 Input command: `grep -v We 911report/preface.txt` 
 
-Output: ```
+Output: 
+```
     
         
             PREFACE
