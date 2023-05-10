@@ -226,29 +226,22 @@ The `$grep -w [pattern] [file]` file command finds and outputs lines only where 
 ### Example 5:
 Input command: `grep -w a 911report/preface.txt `
 
-Output: `Democrats chosen by elected leaders from our nation's capital at a time of great
-
+Output: ```
+                Democrats chosen by elected leaders from our nation's capital at a time of great
             We have come together with a unity of purpose because our nation demands it.
-            
                 September 11, 2001, was a day of unprecedented shock and suffering in the history of
-                
                 sharing information across a large and unwieldy government that had been built in a
-                
                 together as a nation. The test before us is to sustain that unity of purpose and
-                
                 meet the challenges now confronting us. We need to design a balanced strategy for
-                
                 have searched records and produced a multitude of documents for us. We thank
-                
                 assistance. We owe a huge debt to their investigative labors, painstaking attention
-                
                 This final report is only a summary of what we have done, citing only a fraction of
-                
                 inevitably will come to light. We present this report as a foundation for a better
-                
                 understanding of a landmark in the history of our nation.
-                
-            We also approach the task of recommendations with humility. We have made a limited`
+            We also approach the task of recommendations with humility. We have made a limited
+```
+
+
 ### Example 6:
 Input command: `` 
 
