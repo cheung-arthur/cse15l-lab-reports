@@ -17,7 +17,9 @@ So, we know that there are 11 times where `"Wolbachia"` is found in `journal.pbi
 
 Similar to the `wc` command we learned in class, this option for `grep` can save time and effort when searching for specific patterns or counting the occurrences of particular words or phrases in files or logs.
 
-Source: [16 grep Command Examples to Help You in Real-World - geekflare.com](https://geekflare.com/grep-command-examples/)
+### Source:
+[16 grep Command Examples to Help You in Real-World - geekflare.com](https://geekflare.com/grep-command-examples/)
+
 ## Command Line Option 2: Inverse Search
 The `$ grep -v [pattern] [file]` command 
 ### Example 2:
