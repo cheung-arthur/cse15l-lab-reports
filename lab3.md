@@ -224,9 +224,9 @@ In examples 3 and 4, we see all the lines in the respective text files wherein t
 The `$grep -w [pattern] [file]` file command finds and outputs lines only where the `[pattern]` occurs as a whole word, rather than including being a part of a larger word. For example, using the `-w` option with `"a"` would find all line occurences of `"a"`as the word itself, excluding words that simply have "a" inside them.
 
 ### Example 5:
-Input command: `grep -w a 911report/preface.txt `
+Input command: `grep -w a 911report/preface.txt`
 
-Output: ```
+Output: `
                 Democrats chosen by elected leaders from our nation's capital at a time of great
             We have come together with a unity of purpose because our nation demands it.
                 September 11, 2001, was a day of unprecedented shock and suffering in the history of
@@ -240,7 +240,7 @@ Output: ```
                 understanding of a landmark in the history of our nation.
             We also approach the task of recommendations with humility. We have made a limited
 
-```
+`
 
 
 ### Example 6:
