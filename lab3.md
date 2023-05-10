@@ -26,7 +26,7 @@ The `$ grep -v [pattern] [file]` command finds and outputs all lines in the give
 Input command: `grep -v a 911report/chapter-2.txt`
 
 Output: 
-`    
+```    
         
             THE FOUNDATION OF THE NEW TERRORISM
             A DECLARATION OF WAR
@@ -132,7 +132,7 @@ Output:
             
             
             
-`
+```
 ### Example 4:
 Input command: `` 
 
