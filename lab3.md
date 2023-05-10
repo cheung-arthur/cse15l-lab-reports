@@ -432,7 +432,7 @@ Output:
                 period in which the government as a whole seemed to be acting in concert to deal
 ```
 
-In example 7, we see all lines in the `911report/preface.txt` file that had contained the `"we"` string in any combination of lower and upper cases. In example 8, we see all lines in the `911report/chapter-11.txt`` file that had contained the `"as"` *word* in any combination of lower and upper cases.
+In example 7, we see all lines in the `911report/preface.txt` file that had contained the `"we"` string in any combination of lower and upper cases. In example 8, we see all lines in the `911report/chapter-11.txt` file that had contained the `"as"` *word* in any combination of lower and upper cases. This command is useful because if you are finding lines by words, there are often context-dependent times where you want to be case-insensitive.
 
 ### Sources:
 [grep Command in Linux with Examples (Search for a pattern in a file) - Reddit(r/commandline)]
