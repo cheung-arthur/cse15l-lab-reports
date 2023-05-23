@@ -62,7 +62,7 @@ First, we need to type in the command `git add ListExamples.java` to add the cha
 Then we can type in `git commit -m "Nice one"` (or replace whatever is in the quotation marks with a message of your choice) to commit these changes, saving these changes to our local(ieng6) repository. 
 
 Finally, we type in `git push` to sends these changes to our remote github repository.
-We can see all these commands in the screenshow below:
+We can see all these commands in the screenshot below:
 ![Image](step9.png)
 
 (Ignore the lines where I mistyped the git commit command)
