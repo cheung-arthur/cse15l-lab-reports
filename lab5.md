@@ -22,7 +22,7 @@ I'm expecting to see all tests pass, but instead I see that I get two failures w
 Below is the code for my 'ListEx' class: 
 ![Image](ListEx.png)
 
-I'm not quite sure if anything went wrong here, because my filter method does exactly as desired: it creates a new list, and for each element in the list provided as an argument, if that element returns true according to checkString, we add that element to the newly created list. 'result' is within the filter method, so it is not an instance variable being updated, but rather we create a new list each time we call filter() as is intended.
+I'm not quite sure if anything went wrong here, because my filter method does exactly as desired: it creates a new list, and for each element in the list provided as an argument, if that element returns true according to checkString, we add that element to the newly created list. `result` is within the filter method, so it is not an instance variable being updated, but rather we create a new list each time we call filter() as is intended.
 
 Here is my bash script:
 ![Image](testssh.png)
