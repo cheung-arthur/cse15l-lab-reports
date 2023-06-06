@@ -8,6 +8,7 @@
 **What environment are you using (computer, operating system, web browser, terminal/editor, and so on)?**
 
 Operating system: macOS
+
 Terminal/editor: VSCode
 
 
