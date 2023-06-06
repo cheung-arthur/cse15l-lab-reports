@@ -44,9 +44,11 @@ Perhaps the bug isn't in the tester methods or the `filter()` method, but rather
 
 ### Student Reply:
 Thank you! I realized that the == operator checks whether the *references* to the objects are equal, so if I compare each `"a"` in the list given with a newly created `"a"` string, it would evidently return false. To fix this, because my intention was to check for each  `"a"` string in the list argument given to filter, I can simply use the `.equals()` method in `checkString()` instead like so:
+
 ![Image](Fixed.png)
 
 and now all the tests pass:
+
 ![Image](FixedOutput.png)
 
 ### Final Setup Information:
