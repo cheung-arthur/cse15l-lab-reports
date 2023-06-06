@@ -69,7 +69,6 @@ Contents of tests.sh prior to debugging:
 ![Image](testssh.png)
 
 Command line to run tests:
-
 `bash tests.sh`
 
 Description of how bug was fixed:
@@ -80,3 +79,6 @@ Because the `"a"` string(s) inside the created lists do not hold the same refere
 
 ## Part 2: Reflection
 
+In the second half of this quarter, I think my biggest takeaway came from exploring essential Git commands. I knew for a long time that the git software existed, and that it was an important aspect of editing, sharing, and collaborating on code, but I had no idea what its purpose was, how to use it, or what each command did. The "git clone" command allowed me to effortlessly create a local copy of a remote repository, enabling seamless collaboration and contribution. With the "git add" command, I gained fine-grained control over staging files and changes, preparing them for commit. The "git commit -m" command brought structure and clarity to my version control process, attaching meaningful messages to each commit collaborators. Lastly, the "git push" command facilitated seamless collaboration by pushing my local changes to the remote repository. I'm sure that mastering these Git commands will prove invaluable to my future in classes, industry, and coding in general. 
+
+**Thank you Joe and all the tutors/TAs for the quarter! :)**
