@@ -1,6 +1,6 @@
 # Lab Report 5: The Final Report (Sadge)
 ## Part 1: Debugging Scenario
-*I'd like to note that I got this code from Week 9's Wedensday Lecture by fixing the problem we discussed during the lecture of not creating a new list within the filter method itself, and creating a new problem elsewhere. I also got a large portion of my "tests" bash script from scenario 2 of the week 9 lab.*. 
+*I'd like to note that I got the java code from Week 9's Wedensday Lecture by fixing the problem we discussed during the lecture of not creating a new list within the filter method itself, and creating a new problem elsewhere. I also got a large portion of my "tests" bash script from scenario 2 of the week 9 lab.*. 
 
 ### Student Post:
 **Title:Testers failing with correct filter() function for String Checker**. 
