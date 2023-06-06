@@ -33,9 +33,9 @@ I highly doubt the bug is within the bash script, because all it does is echo an
 Now, here is my code for `TestListExamples`:
 ![Image](TestListExamples.png)
 From the symptom in the command line, we see that the error occurs at line 21 and line 33 of the `TestListExamples`. These would be:
-```assertEquals(expect, result1);``` in testFilter()
+```assertEquals(expect, result1);``` in `testFilter()`
 and 
-```assertEquals(expect1, result1);``` in testFilter2()
+```assertEquals(expect1, result1);``` `in testFilter2()`
 
 My intention for these lines in both `testFilter()` and `testFilter2()` is that I created a list of strings with contents: `"a", "b", "c"`and because there is only one "a" in this list, the filter method should return a new list with a single "a" in it. My best guess is that Arrays.asList() does not work as I had intended it to.
 
