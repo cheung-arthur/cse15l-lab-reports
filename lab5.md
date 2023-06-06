@@ -25,6 +25,7 @@ Below is the code for my 'ListEx' class:
 I'm not quite sure if anything went wrong here, because my filter method does exactly as desired: it creates a new list, and for each element in the list provided as an argument, if that element returns true according to checkString, we add that element to the newly created list. 'result' is within the filter method, so it is not an instance variable being updated, but rather we create a new list each time we call filter() as is intended.
 
 Here is my bash script:
+![Image](testssh.png)
 And I entered `bash tests.sh` in the command line to get the symptom.
 I highly doubt the bug is within the bash script, because all it does is echo and redirect the JUNit tester output into a more readable format.
 
