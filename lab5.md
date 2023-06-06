@@ -2,6 +2,7 @@
 ## Part 1: Debugging Scenario
 *I'd like to note that I got this code from Week 9's Wedensday Lecture by fixing the problem we discussed during the lecture of not creating a new list within the filter method itself, and creating a new problem elsewhere. I also got a large portion of my "tests" bash script from scenario 2 of the week 9 lab.*. 
 
+### Student Post:
 **Title:Testers failing with correct filter() function for String Checker**. 
 
 **What environment are you using (computer, operating system, web browser, terminal/editor, and so on)?**
@@ -35,16 +36,17 @@ and
 
 My intention for these lines in both `testFilter()` and `testFilter2()` is that I created a list of strings with contents: `"a", "b", "c"`and because there is only one "a" in this list, the filter method should return a new list with a single "a" in it. My best guess is that Arrays.asList() does not work as I had intended it to.
 
-**TA Reponse:**
+### TA Response:
 Perhaps the bug isn't in the tester methods or the `filter()` method, but rather how you defined `checkString()`? Note that there is a difference between the use of `==` and `.equals()` when comparing two strings.
 
-**Student Reply:**
+### Student Reply:
 Thank you! I realized that the == operator checks whether the *references* to the objects are equal, so if I compare each `"a"` in the list given with a newly created `"a"` string, it would evidently return false. To fix this, because my intention was to check for each  `"a"` string in the list argument given to filter, I can simply use the `.equals()` method in `checkString()` instead like so:
 ![Image](Fixed.png)
 
 and now all the tests pass:
 ![Image](FixedOutput.png)
 
-**Student Reply:**
+### Final Setup Information:
+
 
 ## Part 2: Reflection
