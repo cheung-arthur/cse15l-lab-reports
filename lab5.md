@@ -53,21 +53,27 @@ and now all the tests pass:
 
 ### Final Setup Information:
 File & directory structure needed:
+
 ![Image](DebugSetup.png)
 
 Contents of ListEx.java prior to debugging:
+
 ![Image](ListEx.png)
 
 Contents of TestListExamples.java prior to debugging:
+
 ![Image](TestListExamples.png)
 
 Contents of tests.sh prior to debugging:
+
 ![Image](testssh.png)
 
 Command line to run tests:
+
 `bash tests.sh`
 
 Description of how bug was fixed:
+
 Revised the checkString() method in the `IsA` class that implements the `StrChecker` interface to compare given string with chosen string using `.equals()` rather than `==` operator. 
 
 Because the `"a"` string(s) inside the created lists do not hold the same reference to a newly created `"a"` string (ie they hold the same value but are not referring to the same *object*), `checkString()` returned false incorrectly.
