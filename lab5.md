@@ -37,7 +37,7 @@ From the symptom in the command line, we see that the error occurs at line 21 an
 and 
 ```assertEquals(expect1, result1);``` `in testFilter2()`
 
-My intention for these lines in both `testFilter()` and `testFilter2()` is that I created a list of strings with contents: `"a", "b", "c"`and because there is only one "a" in this list, the filter method should return a new list with a single "a" in it. My best guess is that Arrays.asList() does not work as I had intended it to.
+My intention for these lines in both `testFilter()` and `testFilter2()` is that I created a list of strings with contents: `"a", "b", "c"`and because there is only one `"a"` in this list, the filter method should return a new list with a single `"a"` in it. My best guess is that Arrays.asList() does not work as I had intended it to.
 
 ### TA Response:
 Perhaps the bug isn't in the tester methods or the `filter()` method, but rather how you defined `checkString()`? Note that there is a difference between the use of `==` and `.equals()` when comparing two strings.
